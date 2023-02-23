@@ -71,7 +71,7 @@ color:#ffffff;
 .heading {
   text-align: center;
   font-size: 30px;
-  font-family:"Druk", sans-serif;
+  font-family:"Blaster", sans-serif;
   background-color:rgba(255,255,255,0.2);
   padding:10px;
   line-height:30px;
@@ -82,7 +82,7 @@ color:#ffffff;
 .subhead {
   text-align: center;
   font-size: 25px;
-  font-family:"Druk", sans-serif;
+  font-family:"Blaster", sans-serif;
   color:#cf142b;
   margin: 5px;
   font-weight:bold;
@@ -107,7 +107,7 @@ color:#ffffff;
 
 .button:hover {  
 
-    background-color:#ed1e40;
+    background-color:#000000;
 text-decoration:none;
 color:white;
 }
@@ -141,15 +141,15 @@ margin-top:18px;
 
         <!--COUNTDOWN-->
 <div class="container">
-    <center><h2 class="heading">Renewal Deadline</h2><br>
-    <h1 style="font-family:Arial, sans-serif;letter-spacing:0.2em;">March 10, 2023</h1></center>
+    <center><h2 class="heading">The Needle Drops</h2><br>
+    <h1 style="font-family:Blaster, sans-serif;letter-spacing:0.2em;">March 25, 2023</h1></center>
 <div class="column"><p id="days">-</p>DAYS</div>
 <div class="column"><p id="hours">-</p>HOURS</div>
 <div class="column"><p id="mins">-</p>MINUTES</div>
 <div class="column"><p id="secs">-</p>SECONDS</div>
 <script>
 // Set the date we're counting down to
-var countDownDate = Date.parse("Mar 10, 2023 23:59:59");
+var countDownDate = Date.parse("Mar 25, 2023 20:00:00");
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -182,7 +182,7 @@ var x = setInterval(function() {
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("demo").innerHTML = "EXPIRED";
+        document.getElementById("demo").innerHTML = "It's Showtime";
     }
 }, 1000);
 </script>
